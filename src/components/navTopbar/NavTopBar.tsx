@@ -1,13 +1,13 @@
 'use client'
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
-import logoLight from '@/assets/images/logo-light.png'
-import logoDark from '@/assets/images/logo-dark.png'
 import useScrollEvent from '@/hooks/useScrollEvent'
 import IconifyIcon from '../wrappers/IconifyIcon'
 import { Container, Nav, Navbar, NavbarCollapse, NavbarToggle, NavItem, NavLink } from 'react-bootstrap'
 import Link from 'next/link'
 import Gumshoe from 'gumshoejs'
+import black from "../black2.png";
+import white from "../white.png";
 
 const NavTopBar = ({ isDark }: { isDark?: boolean }) => {
   const navRef = useRef<HTMLDivElement>(null)
@@ -26,8 +26,8 @@ const NavTopBar = ({ isDark }: { isDark?: boolean }) => {
       id="navbar-sticky">
       <Container>
         <Link className="logo text-uppercase" href="/">
-          <Image src={logoLight} width={168} height={30} alt="logoLight" className="logo-light" style={{ height: 30 }} />
-          <Image src={logoDark} width={168} height={30} alt="logoDark" className="logo-dark" style={{ height: 30 }} />
+          <Image src={white} width={168} height={30} alt="logoLight" className="logo-light" style={{ height: 40 }} />
+          <Image src={black} width={168} height={30} alt="logoDark" className="logo-dark" style={{ height: 40 }} />
         </Link>
         <NavbarToggle
           aria-controls="basic-navbar-nav"
