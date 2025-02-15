@@ -21,18 +21,17 @@ const CreativeUs = () => {
                 <IconifyIcon icon="tabler:line-dashed" className="text-primary fs-5" />
                 <span className="badge bg-light border text-primary py-2 px-3 f-14">Creative Us</span>
               </p>
-              <h3>Unleashing Your Imagination</h3>
+              <h3>Empower Your Creativity</h3>
               <p className="text-muted">
-                At Creative Us, we believe in the power of imagination and creativity. Our mission is to help you bring your ideas to life through
-                innovative design and artistic expression.
+              Unlock your potential and explore new possibilities with our innovative tools and resources. We inspire you to think outside the box and transform your imaginative ideas into reality.
               </p>
               <Row className="my-4">
                 <Col lg={4} xs={4}>
-                  <h4 className="fw-semibold">20+</h4>
+                  <h4 className="fw-semibold">17+</h4>
                   <p className="mb-0 text-muted">Working Task</p>
                 </Col>
                 <Col lg={4} xs={4}>
-                  <h4 className="fw-semibold">70+</h4>
+                  <h4 className="fw-semibold">17+</h4>
                   <p className="mb-0 text-muted">Country Reached</p>
                 </Col>
                 <Col lg={4} xs={4}>
@@ -42,11 +41,11 @@ const CreativeUs = () => {
                   <p className="mb-0 text-muted">Best Rating</p>
                 </Col>
               </Row>
-              <p className="text-muted">
+              {/* <p className="text-muted">
                 <b className="text-primary">Comments</b>
                 <span className="mx-1 text-dark">:</span>This perfectly encapsulates the spirit of Creative Us! Embracing the boundless potential of
                 creativity
-              </p>
+              </p> */}
             </div>
           </Col>
         </Row>

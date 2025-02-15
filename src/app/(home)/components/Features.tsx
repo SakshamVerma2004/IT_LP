@@ -20,7 +20,7 @@ const Features = () => {
                 <IconifyIcon icon="tabler:line-dashed" className="text-primary fs-5" />
                 <span className="badge bg-light border text-primary py-2 px-3 f-14">Our Services</span>
               </p>
-              <h3>Services heading here</h3>
+              <h3>Expert Support and Services</h3>
             </div>
           </Col>
         </Row>
@@ -29,8 +29,8 @@ const Features = () => {
             <div className="feautures-content text-lg-end">
               <div className="d-flex mt-5 gap-2">
                 <div className="text">
-                  <h6 className="text-dark">Exceptional Speed</h6>
-                  <p className="text-muted">Engineered to operate at top speeds, ensuring quick and efficient execution of tasks.</p>
+                  <h6 className="text-dark">Web Development</h6>
+                  <p className="text-muted">We create responsive and dynamic websites tailored to your business needs, ensuring seamless user experiences and robust functionality across all devices.</p>
                 </div>
                 <div className="icon-bg rounded d-flex justify-content-center align-items-center flex-shrink-0">
                   <IconifyIcon icon="tabler:number-1" className="fs-5 text-primary" />
@@ -38,9 +38,9 @@ const Features = () => {
               </div>
               <div className="d-flex my-3 gap-2">
                 <div className="text">
-                  <h6 className="text-dark">Optimized Efficiency</h6>
+                  <h6 className="text-dark">UI/UX Designing</h6>
                   <p className="text-muted">
-                    Designed to maximize productivity and minimize downtime, providing a smooth and effective user experience.
+                  Our design team focuses on crafting intuitive user interfaces and engaging experiences, enhancing usability and satisfaction for your target audience.
                   </p>
                 </div>
                 <div className="icon-bg rounded d-flex justify-content-center align-items-center flex-shrink-0">
@@ -49,8 +49,8 @@ const Features = () => {
               </div>
               <div className="d-flex gap-2">
                 <div className="text">
-                  <h6 className="text-dark">Reliable Operation</h6>
-                  <p className="text-muted">Built for consistent and dependable performance, even under demanding conditions or high workloads.</p>
+                  <h6 className="text-dark">App Development</h6>
+                  <p className="text-muted">We develop innovative mobile and web applications that are user-friendly, scalable, and designed to meet your specific business objectives.</p>
                 </div>
                 <div className="icon-bg rounded d-flex justify-content-center align-items-center flex-shrink-0">
                   <IconifyIcon icon="tabler:number-3" className="fs-5 text-primary" />
@@ -70,8 +70,8 @@ const Features = () => {
                   <IconifyIcon icon="tabler:number-4" className="fs-5  text-primary" />
                 </div>
                 <div className="text">
-                  <h6 className="text-dark">Advanced Personalization</h6>
-                  <p className="text-muted">Utilize a wide range of options to personalize the product, from appearance to functionality.</p>
+                  <h6 className="text-dark">3D Modelling</h6>
+                  <p className="text-muted">Our 3D modeling services bring your ideas to life with realistic visualizations, perfect for product design, architecture, and immersive experiences.</p>
                 </div>
               </div>
               <div className="d-flex my-3 gap-2">
@@ -79,8 +79,8 @@ const Features = () => {
                   <IconifyIcon icon="tabler:number-5" className="fs-5  text-primary" />
                 </div>
                 <div className="text">
-                  <h6 className="text-dark">Adaptable Functionality</h6>
-                  <p className="text-muted">Easily add or remove components and integrations to fit your unique requirements.</p>
+                  <h6 className="text-dark">Strategy Innovation</h6>
+                  <p className="text-muted">We help businesses identify growth opportunities through strategic innovation, leveraging technology and market insights to drive sustainable success.</p>
                 </div>
               </div>
               <div className="d-flex gap-2">
@@ -88,8 +88,8 @@ const Features = () => {
                   <IconifyIcon icon="tabler:number-6" className="fs-5  text-primary" />
                 </div>
                 <div className="text">
-                  <h6 className="text-dark">User-Specific Profiles</h6>
-                  <p className="text-muted">Create and manage different profiles to accommodate various user preferences and needs.</p>
+                  <h6 className="text-dark">Personalized Solutions</h6>
+                  <p className="text-muted">Our team delivers customized IT solutions tailored to your unique challenges, ensuring optimal performance and alignment with your business goals.</p>
                 </div>
               </div>
             </div>

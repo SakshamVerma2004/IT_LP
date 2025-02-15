@@ -18,35 +18,35 @@ const AboutUs = () => {
                 <IconifyIcon icon="tabler:line-dashed" className="text-primary fs-5" />
                 <span className="badge bg-light border text-primary py-2 px-3 f-14">About Us </span>
               </p>
-              <h3>Amazing Platform</h3>
-              <p className="mb-0 text-muted">Amazing Platform offers cutting-edge solutions to elevate your digital presence. </p>
+              <h3>Brand Story</h3>
+              <p className="mb-0 text-muted">Creating meaningful connections through quality products that inspire and empower individuals. </p>
               <div className="mt-5">
                 <Row>
                   <Col lg={3} xs={3}>
-                    <h4 className="fw-semibold">5+</h4>
+                    <h4 className="fw-semibold">3+</h4>
                     <p className="mb-0 text-muted">Years</p>
                   </Col>
                   <Col lg={3} xs={3}>
-                    <h4 className="fw-semibold">70+</h4>
+                    <h4 className="fw-semibold">50+</h4>
                     <p className="mb-0 text-muted">Client</p>
                   </Col>
                   <Col lg={3} xs={3}>
-                    <h4 className="fw-semibold">150+</h4>
+                    <h4 className="fw-semibold">100+</h4>
                     <p className="mb-0 text-muted">Design</p>
                   </Col>
                   <Col lg={3} xs={3}>
-                    <h4 className="fw-semibold">18+</h4>
+                    <h4 className="fw-semibold">16+</h4>
                     <p className="mb-0 text-muted">Teams</p>
                   </Col>
                 </Row>
               </div>
-              <div className="d-flex align-items-center gap-3 mt-5">
+              {/* <div className="d-flex align-items-center gap-3 mt-5">
                 <Image src={avatar8} alt="avatar" className="rounded-circle" width={40} height={40} />
                 <div>
                   <p className="m-0 text-dark fs-6">Malikk Ganteng</p>
                   <p className="m-0 f-14 text-muted">Data Analyst @Skywave</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col lg={8}>
@@ -67,9 +67,9 @@ const AboutUs = () => {
                 )
               })}
             </Row>
-            <div className="text-end mt-3">
+            {/* <div className="text-end mt-3">
               <Button variant="primary">Show More</Button>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>

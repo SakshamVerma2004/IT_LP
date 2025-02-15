@@ -13,12 +13,17 @@ const Hero = () => {
             <Row>
               <Col lg={7}>
                 <div className="home-title text-white">
-                  <h5 className="mb-3 text-white text-opacity-50">Discover Today</h5>
-                  <h1>A digital studio designing captivating experiences.</h1>
+                  <h5 className="mb-3 text-white text-opacity-50">Digital Presence</h5>
+                  <h1>Prove & Enhance Your Online Existence.</h1>
                   <p className="mt-4 text-white text-opacity-50 f-16">
-                    A premier web design company specializing in creating visually stunning and highly engaging online experiences.{' '}
+                    Building Trust and Patience in Your Digital Journey" In today's digital landscape, establishing a strong online presence is
+                    essential.{' '}
                   </p>
-                  <div className="watch-video mt-5">
+
+                  <p className="mt-4 text-white text-opacity-50 f-16">
+                  Our mission is to guide you through this process with unwavering support, helping you navigate challenges, develop authentic connections, and achieve lasting success in your online endeavors.{' '}
+                  </p>
+                  {/* <div className="watch-video mt-5">
                     <a href="#" className="video-play-icon text-white" data-bs-toggle="modal" data-bs-target="#watchvideomodal">
                       <IconifyIcon width={16} height={16} icon="tabler:player-play-filled" className="play-icon-circle me-2" />{' '}
                       <span>Watch The Video!</span>
@@ -33,7 +38,7 @@ const Hero = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
               <Col lg={5}>
