@@ -51,8 +51,8 @@ export const aboutUsData: AboutUsType[] = [
     icon: 'tabler:device-desktop',
   },
   {
-    title: 'Subscription',
-    description: 'Make your money analysis faster and create your own way of saving on payments negotiate bills and subscriptions',
+    title: 'Tailored Experiences',
+    description: 'Crafting customized solutions that align with your unique goals, ensuring impactful results through innovation and personalized engagement',
     icon: 'tabler:file-description',
   },
 ]
@@ -102,9 +102,9 @@ export const servicesData: ServicesType[] = [
   },
   {
     icon: 'tabler:briefcase',
-    title: 'Business Development',
-    description: 'Market research helps identify emerging opportunities, customer',
-    options: 22,
+    title: 'Comprehensive Solutions',
+    description: 'Delivering integrated services for your business success',
+    options: 23,
   },
 ]
 

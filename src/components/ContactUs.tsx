@@ -45,8 +45,8 @@ const ContactUs = () => {
                     <IconifyIcon icon="tabler:mail" className="fs-4" />
                   </span>
                   <p className="mb-0 fw-semibold f-16 text-muted">Chat With Our Team</p>
-                </div>
-                <span className="fw-semibold f-16 text-muted">marshal@rhyta.com</span>
+                </div> 
+                <span className="fw-semibold f-16 text-muted">support.speedscript@gmail.com</span>
                 <Button variant="primary" size="sm" className="w-100 mt-3">
                   Contact Us
                 </Button>

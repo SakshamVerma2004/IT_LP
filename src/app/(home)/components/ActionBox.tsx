@@ -10,16 +10,15 @@ const ActionBox = () => {
         <Row className="justify-content-center">
           <Col lg={10}>
             <div className="cta-content text-center text-white">
-              <h3 className="mb-4">Join millions of creative people with Skywave </h3>
+              <h3 className="mb-4">Connect with millions of creative individuals at SpeedScript.</h3>
               <p className="text-light f-16">
-                Connect with a vibrant community of innovators and creators who are transforming their ideas into reality with Skywave. Whether
-                you&apos;re looking to streamline your projects, personalize your tools
+              At SpeedScript, we foster a vibrant community of creative minds. Join us to collaborate, share ideas, and gain inspiration from fellow innovators. Together, we can elevate your creative journey and turn visions into reality.
               </p>
-              <div className="pt-3">
+              {/* <div className="pt-3">
                 <Button variant="white">
                   Free Trial <IconifyIcon icon="" className="mdi mdi-arrow-right" />{' '}
                 </Button>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>
