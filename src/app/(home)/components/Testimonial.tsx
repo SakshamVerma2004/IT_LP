@@ -1,13 +1,10 @@
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import Image from 'next/image'
 import React from 'react'
-import avatar8 from '@/assets/images/team/avatar-8.jpg'
-import avatar5 from '@/assets/images/team/avatar-5.jpg'
-import avatar3 from '@/assets/images/team/avatar-3.jpg'
-import avatar4 from '@/assets/images/team/avatar-4.jpg'
-import paypal from '@/assets/images/logo/paypal.png'
-import shopify from '@/assets/images/logo/shopify.png'
-import amazon from '@/assets/images/logo/amazon.png'
+import avatar8 from '@/assets/images/team/person1.jpg'
+import avatar5 from '@/assets/images/team/prson2.jpg'
+import avatar3 from '@/assets/images/team/person3.jpg'
+import avatar4 from '@/assets/images/team/person4.jpg'
 import { Card, CardBody, Carousel, CarouselItem, Col, Container, Row } from 'react-bootstrap'
 
 const Testimonial = () => {
@@ -23,11 +20,9 @@ const Testimonial = () => {
               <IconifyIcon icon="tabler:line-dashed" className="text-primary fs-5" />
               <span className="badge bg-light border text-primary py-2 px-3 f-14">Testimonial</span>
             </p>
-            <h3>From Our Community.</h3>
-            <p className="text-muted">Here&apos;s what other subscribers had to say about Production Online.</p>
-            <h4 className="fw-semibold">
-              <IconifyIcon icon="tabler:star-filled" className="text-warning" /> 4.5 <span className="f-14 text-muted fw-medium">Best Review</span>
-            </h4>
+            <h3>What Our Clients Say</h3>
+            <p className="text-muted">Our clients’ success stories speak for themselves. See how our innovative solutions have transformed businesses, streamlined operations, and boosted growth effortlessly.</p>
+            <p className="text-muted">We take pride in delivering excellence. Hear from satisfied clients who have experienced our cutting-edge technology and outstanding support firsthand.</p>
           </Col>
           <Col lg={6}>
             <div className="bg-primary p-3 rounded shadow bg-shape">
@@ -38,15 +33,13 @@ const Testimonial = () => {
                       <CardBody className="text-start">
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
-                            <Image src={paypal} alt="paypal" />
                             <p className="card-text mt-3 f-18 text-muted">
-                              &quot; Production Online has helped me become a bette musician and producer tha I ever thought possible.&quot;
+                             "Exceptional service and innovative solutions! Their team transformed our outdated systems into a seamless, efficient platform. Our productivity has increased significantly."
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar8} alt="avatar" className="rounded-circle" height={50} width={50} />
                               <div className="d-block ms-3">
-                                <p className="m-0 text-primary fs-6 fw-medium">Danilo Tanic</p>
-                                <p className="m-0 fs-6">Head of Design at Paypal</p>
+                                <p className="m-0 text-primary fs-6 fw-medium">Ravi Verma</p>
                               </div>
                             </div>
                           </Col>
@@ -61,15 +54,13 @@ const Testimonial = () => {
                       <CardBody className="text-start">
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
-                            <Image src={shopify} alt="shopify" />
                             <p className="card-text mt-3 f-18 text-muted">
-                              &quot;Each of team member is getting precious help in their professional development and can build a program that&quot;.
+                              "Reliable, professional, and highly skilled. They went beyond our expectations with their advanced approach. Our business now runs more smoothly than ever, thanks to their expertise and dedicated support."
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar5} alt="avatar" className="rounded-circle" height={50} width={50} />
                               <div className="d-block ms-3">
-                                <p className="m-0 text-primary fs-6 fw-medium">Samuel Kane</p>
-                                <p className="m-0 fs-6">Project Manager at Shopify</p>
+                                <p className="m-0 text-primary fs-6 fw-medium">Manjot Atwal</p>
                               </div>
                             </div>
                           </Col>
@@ -84,15 +75,13 @@ const Testimonial = () => {
                       <CardBody className="text-start">
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
-                            <Image src={amazon} alt="amazon" />
                             <p className="card-text mt-3 f-18 text-muted">
-                              &quot;Growth was implemented within minutes and it is now an essential part of our amazing development process&quot;.
+                              "Their IT solutions have streamlined our operations, saving us both time and resources. The team’s proactive support and problem-solving skills have played a crucial role in our company’s growth."
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar3} alt="avatar" className="rounded-circle" height={50} width={50} />
                               <div className="d-block ms-3">
-                                <p className="m-0 text-primary fs-6 fw-medium">James Arthur</p>
-                                <p className="m-0 fs-6">Senior Manager at Amazon</p>
+                                <p className="m-0 text-primary fs-6 fw-medium">Ravindar Singh</p>
                               </div>
                             </div>
                           </Col>
@@ -107,15 +96,13 @@ const Testimonial = () => {
                       <CardBody className="text-start">
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
-                            <Image src={amazon} alt="amazon" />
                             <p className="card-text mt-3 f-18 text-muted">
-                              &quot;Growth was implemented within minutes and it is now an essential part of our amazing development process&quot;.
+                              "Excellent experience! Right from consultation to implementation, their expertise was evident. Our business now operates with improved security and efficiency, all thanks to their outstanding services."
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar4} alt="avatrt" className="rounded-circle" height={50} width={50} />
                               <div className="d-block ms-3">
-                                <p className="m-0 text-primary fs-6 fw-medium">James Arthur</p>
-                                <p className="m-0 fs-6">Senior Manager at Amazon</p>
+                                <p className="m-0 text-primary fs-6 fw-medium">RB Takher</p>
                               </div>
                             </div>
                           </Col>

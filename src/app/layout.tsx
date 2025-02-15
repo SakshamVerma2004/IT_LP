@@ -1,13 +1,20 @@
 import '@/assets/scss/style.scss'
 import { DEFAULT_PAGE_TITLE } from '@/context/constants'
 import { Metadata } from 'next'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import favicon from "./favIcon.png";
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Skywave NextJs - IT Solution & Technology HTML Landing Template',
+    template: '%s Speed Script',
     default: DEFAULT_PAGE_TITLE,
   },
-  description: 'Premium Bootstrap 5 Landing Page Template',
+
+  description: 'Building Trust and Patience in Your Digital Journey',
+  icons: {
+    icon: './favIcon.png'
+  }
 }
 
 export default function RootLayout({
@@ -20,7 +27,10 @@ export default function RootLayout({
       <head>
         <style suppressHydrationWarning>{}</style>
       </head>
-      <body className={``}>{children}</body>
+      <body>
+        {children}
+        <ToastContainer position="top-right" autoClose={3000} />
+      </body>
     </html>
   )
 }

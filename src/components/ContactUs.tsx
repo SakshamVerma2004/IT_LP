@@ -1,8 +1,25 @@
+'use client'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
-import React from 'react'
+import React, { useState } from 'react'
 import { Button, Card, CardBody, Col, Container, Row } from 'react-bootstrap'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const ContactUs = () => {
+  let [name, setName] = useState('')
+  let [email, setEmail] = useState('')
+  let [subject, setSubject] = useState('')
+  let [message, setMessage] = useState('')
+
+  let handleSubmitForm = async (e: any) => {
+    e.preventDefault()
+    if (name.trim().length < 1 || email.trim().length < 1 || subject.trim().length < 1 || message.trim().length < 1) {
+      toast.error('Please fill out all the details.')
+      return
+    }
+
+    toast.success('Email sent successfully!')
+  }
   return (
     <section className="section bg-light" id="contact">
       <Container>
@@ -28,7 +45,7 @@ const ContactUs = () => {
                     <IconifyIcon icon="tabler:mail" className="fs-4" />
                   </span>
                   <p className="mb-0 fw-semibold f-16 text-muted">Chat With Our Team</p>
-                </div> 
+                </div>
                 <span className="fw-semibold f-16 text-muted">marshal@rhyta.com</span>
                 <Button variant="primary" size="sm" className="w-100 mt-3">
                   Contact Us
@@ -38,22 +55,48 @@ const ContactUs = () => {
           </Col>
           <Col lg={8}>
             <div className="custom-form p-3">
-              <form>
+              <form onSubmit={handleSubmitForm}>
                 <h6 className="mb-4">Send Details</h6>
                 <Row>
                   <Col lg={6}>
                     <div className="mb-3">
-                      <input name="name" id="name" type="text" className="form-control border" placeholder="Name" required />
+                      <input
+                        name="name"
+                        id="name"
+                        type="text"
+                        className="form-control border"
+                        placeholder="Name"
+                        required
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                      />
                     </div>
                   </Col>
                   <Col lg={6}>
                     <div className="mb-3">
-                      <input name="email" id="email" type="email" className="form-control border" placeholder="Email" required />
+                      <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        className="form-control border"
+                        placeholder="Email"
+                        required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
                     </div>
                   </Col>
                   <Col lg={12}>
                     <div className="mb-3">
-                      <input type="text" className="form-control border" id="subject" placeholder="Subject" required />
+                      <input
+                        type="text"
+                        className="form-control border"
+                        id="subject"
+                        placeholder="Subject"
+                        required
+                        value={subject}
+                        onChange={(e) => setSubject(e.target.value)}
+                      />
                     </div>
                   </Col>
                   <Col lg={12}>
@@ -65,7 +108,8 @@ const ContactUs = () => {
                         className="form-control border"
                         required
                         placeholder="Message"
-                        defaultValue={''}
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                       />
                     </div>
                   </Col>

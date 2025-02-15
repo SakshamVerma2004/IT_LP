@@ -14,4 +14,4 @@ export const buyLink = ''
 
 export const basePath = ''
 
-export const DEFAULT_PAGE_TITLE = 'Skywave Next - IT Solution & Technology HTML Landing Template'
+export const DEFAULT_PAGE_TITLE = 'Speed Script'

@@ -11,9 +11,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { currentYear } from '@/context/constants'
 import Link from 'next/link'
 import Image from 'next/image'
-import logoLight from '@/assets/images/logo-light.png'
-import logoDark from '@/assets/images/logo-dark.png'
 import Loader from '@/components/Loader'
+import black from "./black2.png";
+import white from "./white.png";
 
 const HomePage = () => {
   return (
@@ -35,61 +35,30 @@ const HomePage = () => {
               <div className="footer-about">
                 <div className="logo mb-4">
                   <Link className="logo text-uppercase" href="/">
-                    <Image width={168} height={30} src={logoLight} alt="logoLight" className="logo-light" style={{ height: 30 }} />
-                    <Image width={168} height={30} src={logoDark} alt="logoDark" className="logo-dark" style={{ height: 30 }} />
+                    <Image width={168} height={30} src={white} alt="logoLight" className="logo-light" style={{ height: 40 }} />
+                    <Image width={168} height={30} src={black} alt="logoDark" className="logo-dark" style={{ height: 40 }} />
                   </Link>
                 </div>
                 <p className="text-white mb-4">Comprehensive report, data visualization , and insights to analyze your business.</p>
               </div>
             </Col>
             <Col lg={2}>
-              <h5 className="text-white fw-medium">Solution</h5>
+              <h5 className="text-white fw-medium">About Us</h5>
               <ul className="mt-4">
                 <li>
-                  <Link href="">Enterprise</Link>
+                  <Link href="#about">About Us</Link>
                 </li>
                 <li>
-                  <Link href="">By Workflow</Link>
+                  <Link href="#achievements">Our Achievements</Link>
                 </li>
                 <li>
-                  <Link href="">By Team</Link>
-                </li>
-              </ul>
-            </Col>
-            <Col lg={2}>
-              <h5 className="text-white fw-medium">Company</h5>
-              <ul className="mt-4">
-                <li>
-                  <Link href="">About Us</Link>
+                  <Link href="#services">Our Services</Link>
                 </li>
                 <li>
-                  <Link href="">News &amp; Press</Link>
+                  <Link href="#expertise">Our Expertise</Link>
                 </li>
                 <li>
-                  <Link href="">Our Customer</Link>
-                </li>
-                <li>
-                  <Link href="">Leadership</Link>
-                </li>
-                <li>
-                  <Link href="">Careers</Link>
-                </li>
-              </ul>
-            </Col>
-            <Col lg={2}>
-              <h5 className="text-white fw-medium">Resources</h5>
-              <ul className="mt-4">
-                <li>
-                  <Link href="">Blog </Link>
-                </li>
-                <li>
-                  <Link href="">Webinar &amp; Events </Link>
-                </li>
-                <li>
-                  <Link href="">Podcast</Link>
-                </li>
-                <li>
-                  <Link href="">E-book &amp; Guides</Link>
+                  <Link href="#testimonial">Reviews</Link>
                 </li>
               </ul>
             </Col>
@@ -97,13 +66,10 @@ const HomePage = () => {
               <h5 className="text-white fw-medium">Contact Us</h5>
               <ul className="mt-4">
                 <li>
-                  <Link href="">Contact Sales </Link>
+                  <Link href="#contact">Contact </Link>
                 </li>
                 <li>
-                  <Link href="">Become Partner</Link>
-                </li>
-                <li>
-                  <Link href="">Affliate Program</Link>
+                  <Link href="mailto:support.speedscript@gmail.com">Mail Us</Link>
                 </li>
               </ul>
             </Col>
@@ -111,7 +77,7 @@ const HomePage = () => {
           <hr className="border-primary" />
           <Row className="align-items-center justify-content-center">
             <Col>
-              <p className="m-0 fs-6 text-white-50 text-center">{currentYear} © Company Name - All Rights Reserved</p>
+              <p className="m-0 fs-6 text-white-50 text-center">{currentYear} © Speedscript - All Rights Reserved</p>
             </Col>
           </Row>
         </Container>
