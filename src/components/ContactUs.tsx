@@ -6,12 +6,12 @@ import { toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 const ContactUs = () => {
-  let [name, setName] = useState('')
-  let [email, setEmail] = useState('')
-  let [subject, setSubject] = useState('')
-  let [message, setMessage] = useState('')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [subject, setSubject] = useState('')
+  const [message, setMessage] = useState('')
 
-  let handleSubmitForm = async (e: any) => {
+  const handleSubmitForm = async (e: any) => {
     e.preventDefault()
     if (name.trim().length < 1 || email.trim().length < 1 || subject.trim().length < 1 || message.trim().length < 1) {
       toast.error('Please fill out all the details.')
