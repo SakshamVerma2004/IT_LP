@@ -16,29 +16,13 @@ const Hero = () => {
                   <h5 className="mb-3 text-white text-opacity-50">Digital Presence</h5>
                   <h1>Prove & Enhance Your Online Existence.</h1>
                   <p className="mt-4 text-white text-opacity-50 f-16">
-                    Building Trust and Patience in Your Digital Journey" In today's digital landscape, establishing a strong online presence is
+                    Building Trust and Patience in Your Digital Journey. In today&apos;s digital landscape, establishing a strong online presence is
                     essential.{' '}
                   </p>
 
                   <p className="mt-4 text-white text-opacity-50 f-16">
                   Our mission is to guide you through this process with unwavering support, helping you navigate challenges, develop authentic connections, and achieve lasting success in your online endeavors.{' '}
                   </p>
-                  {/* <div className="watch-video mt-5">
-                    <a href="#" className="video-play-icon text-white" data-bs-toggle="modal" data-bs-target="#watchvideomodal">
-                      <IconifyIcon width={16} height={16} icon="tabler:player-play-filled" className="play-icon-circle me-2" />{' '}
-                      <span>Watch The Video!</span>
-                    </a>
-                    <div className="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabIndex={-1} aria-hidden="true">
-                      <div className="modal-dialog modal-dialog-centered modal-dialog modal-lg">
-                        <div className="modal-content video-modal">
-                          <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
-                          <video id="VisaChipCardVideo" className="w-100" controls>
-                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-                          </video>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
                 </div>
               </Col>
               <Col lg={5}>

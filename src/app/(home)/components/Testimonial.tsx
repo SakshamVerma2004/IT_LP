@@ -34,7 +34,7 @@ const Testimonial = () => {
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
                             <p className="card-text mt-3 f-18 text-muted">
-                             "Exceptional service and innovative solutions! Their team transformed our outdated systems into a seamless, efficient platform. Our productivity has increased significantly."
+                             Exceptional service and innovative solutions! Their team transformed our outdated systems into a seamless, efficient platform. Our productivity has increased significantly.
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar8} alt="avatar" className="rounded-circle" height={50} width={50} />
@@ -55,7 +55,7 @@ const Testimonial = () => {
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
                             <p className="card-text mt-3 f-18 text-muted">
-                              "Reliable, professional, and highly skilled. They went beyond our expectations with their advanced approach. Our business now runs more smoothly than ever, thanks to their expertise and dedicated support."
+                              Reliable, professional, and highly skilled. They went beyond our expectations with their advanced approach. Our business now runs more smoothly than ever, thanks to their expertise and dedicated support.
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar5} alt="avatar" className="rounded-circle" height={50} width={50} />
@@ -76,7 +76,7 @@ const Testimonial = () => {
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
                             <p className="card-text mt-3 f-18 text-muted">
-                              "Their IT solutions have streamlined our operations, saving us both time and resources. The team’s proactive support and problem-solving skills have played a crucial role in our company’s growth."
+                              Their IT solutions have streamlined our operations, saving us both time and resources. The team’s proactive support and problem-solving skills have played a crucial role in our company’s growth.
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar3} alt="avatar" className="rounded-circle" height={50} width={50} />
@@ -97,7 +97,7 @@ const Testimonial = () => {
                         <Row className="align-items-center justify-content-between g-0">
                           <Col lg={12}>
                             <p className="card-text mt-3 f-18 text-muted">
-                              "Excellent experience! Right from consultation to implementation, their expertise was evident. Our business now operates with improved security and efficiency, all thanks to their outstanding services."
+                              Excellent experience! Right from consultation to implementation, their expertise was evident. Our business now operates with improved security and efficiency, all thanks to their outstanding services.
                             </p>
                             <div className="d-flex align-items-center mt-4">
                               <Image src={avatar4} alt="avatrt" className="rounded-circle" height={50} width={50} />

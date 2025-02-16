@@ -3,8 +3,6 @@ import { DEFAULT_PAGE_TITLE } from '@/context/constants'
 import { Metadata } from 'next'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import favicon from "./favIcon.png";
-
 export const metadata: Metadata = {
   title: {
     template: '%s Speed Script',
@@ -12,9 +10,6 @@ export const metadata: Metadata = {
   },
 
   description: 'Building Trust and Patience in Your Digital Journey',
-  icons: {
-    icon: './favIcon.png'
-  }
 }
 
 export default function RootLayout({
